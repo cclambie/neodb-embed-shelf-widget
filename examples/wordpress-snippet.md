@@ -38,6 +38,13 @@ html
 
 ## Step 2 - Add snippets to page
  - paste the shortcode with correct snippet id onto the page you want to display your neodb
+ - add this HTML snippet to your page where you want the widget to display <div class="neodb-embed"></div>    
+ - example below:
+```
+<div class="neodb-embed"></div> 
+[wpcode id="814"]
+[wpcode id="815"]
+```
 
 ## Optional (Advanced)
 
