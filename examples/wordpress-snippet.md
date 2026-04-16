@@ -18,10 +18,14 @@ Recommended location:
 
 Add a **Custom HTML block** in WordPress and paste:
 
-```html
+```
+html
 <link rel="stylesheet" href="/wp-content/uploads/neodb-embed-shelf-widget.css">
 <div class="neodb-embed"></div>
 <script src="/wp-content/uploads/neodb-embed-shelf-widget.js"></script>
+```
+
+---
 
 # Option 2 - Limited control on file type uploads to media
 ## Step 1 - Add to Code Snippts plugin
@@ -42,5 +46,3 @@ If you prefer, you can place the files in your theme instead:
 `/wp-content/themes/your-theme/js/`
 
 And update the paths accordingly.
-
-## 
