@@ -1,0 +1,98 @@
+/* ============================================================
+   neodb-embed-shelf-widget.css
+   GitHub: https://github.com/cclambie/neodb-embed-shelf-widget
+   ============================================================ */
+
+.neodb-section {
+  margin: 1.5rem 0;
+}
+
+.neodb-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.25rem;
+}
+
+.neodb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.neodb-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.neodb-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.neodb-cover {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: #f0f0f0;
+  display: block;
+}
+
+.neodb-no-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.neodb-info {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.neodb-title {
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.neodb-rating {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.neodb-comment {
+  font-size: 0.75rem;
+  color: #555;
+  margin-top: 0.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.neodb-loading,
+.neodb-empty,
+.neodb-error {
+  font-size: 0.9rem;
+  color: #888;
+  padding: 1rem 0;
+}
+
+.neodb-error {
+  color: #c0392b;
+}
